@@ -57,4 +57,9 @@ class ConverterTests: XCTestCase {
         XCTAssertEqual(result, "MMMCMXCIX", "Conversion for 3999 is incorrect")
     }
 
+    func testConversionForONEE() {
+        let result = converter.convert(1)
+        XCTAssertEqual(result, "I", "Conversion for 1 is incorrect")
+    }
+
 }
