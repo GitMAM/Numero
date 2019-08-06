@@ -85,16 +85,14 @@
 		3052E854201040F500F6F30B /* Numero */ = {
 			isa = PBXGroup;
 			children = (
+				D9F8DFA422FA15FD00104E94 /* Helpers */,
+				D9F8DFA322FA15E100104E94 /* GameEngine */,
+				D9F8DFA222FA15CC00104E94 /* Controllers */,
 				3052E855201040F500F6F30B /* AppDelegate.swift */,
-				3052E857201040F500F6F30B /* ViewController.swift */,
-				3052E8872010950800F6F30B /* GameDoneViewController.swift */,
 				3052E859201040F500F6F30B /* Main.storyboard */,
 				3052E85C201040F500F6F30B /* Assets.xcassets */,
 				18B65CBB20C09E8D00BFC903 /* LaunchScreen.storyboard */,
 				3052E861201040F500F6F30B /* Info.plist */,
-				3052E883201041FA00F6F30B /* Game.swift */,
-				30833EE32014681A000488C0 /* Shuffle.swift */,
-				3052E8852010600D00F6F30B /* Converter.swift */,
 			);
 			path = Numero;
 			sourceTree = "<group>";
@@ -106,6 +104,32 @@
 				CDCB234622178A39003C94B1 /* ConverterTests.swift */,
 			);
 			path = NumeroTests;
+			sourceTree = "<group>";
+		};
+		D9F8DFA222FA15CC00104E94 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3052E857201040F500F6F30B /* ViewController.swift */,
+				3052E8872010950800F6F30B /* GameDoneViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D9F8DFA322FA15E100104E94 /* GameEngine */ = {
+			isa = PBXGroup;
+			children = (
+				3052E883201041FA00F6F30B /* Game.swift */,
+			);
+			path = GameEngine;
+			sourceTree = "<group>";
+		};
+		D9F8DFA422FA15FD00104E94 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				30833EE32014681A000488C0 /* Shuffle.swift */,
+				3052E8852010600D00F6F30B /* Converter.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
